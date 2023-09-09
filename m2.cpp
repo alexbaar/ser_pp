@@ -7,9 +7,11 @@
 using namespace std;
 using namespace std::chrono;
 
+// sample size; 2D matrix of size NxN -> rows x columns
+const int N = 100; 
+
 int main() {
-    // sample size; 2D matrix of size NxN -> rows x columns
-    const int N = 100; 
+
 
     // vector of vectors = 2D matrice
     vector<vector<int>> A(N, vector<int>(N));
