@@ -8,7 +8,7 @@ using namespace std;
 using namespace std::chrono;
 
 // sample size; 2D matrix of size NxN -> rows x columns
-const int N = 100; 
+const int N = 1000; 
 
 int main() {
 
